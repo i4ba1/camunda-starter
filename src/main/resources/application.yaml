@@ -1,0 +1,25 @@
+spring.datasource.url: jdbc:h2:file:./camunda-h2-database
+
+camunda.bpm.admin-user:
+  id: demo
+  password: demo
+
+
+
+#spring:
+  #datasource:
+    #url: jdbc:mysql://127.0.0.1:3306/myapp
+    #username: root
+    #password: pass1234
+
+#camunda:
+  #bpm:
+   # database:
+      #table-prefix: myschema
+      #schema-name: myschema
+camunda:
+  bpm:
+    filter:
+      create: All tasks
+server:
+  port: 8989
