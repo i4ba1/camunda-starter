@@ -1,4 +1,4 @@
-package com.mni.dev;
+package com.mni.dev.config;
 
 import org.camunda.bpm.engine.rest.security.auth.ProcessEngineAuthenticationFilter;
 import org.camunda.bpm.engine.rest.security.auth.impl.HttpBasicAuthenticationProvider;
